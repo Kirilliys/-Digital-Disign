@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1100px;
+  margin: auto;
+  background-color: bisque;
+}
+.review__title {
+  text-align: center;
+  color: #0669b2;
+}
+.sign {
+  width: 370px;
+  min-height: 250px;
+  border: 1px solid #333;
+  padding: 7px;
+  background-color: #fffafa;
+}
+.sign__image {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.sign__fig {
+  text-align: center;
+}
+.review__item {
+  margin-bottom: 10px;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+  border-radius: 4px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  padding: 18px;
+}
